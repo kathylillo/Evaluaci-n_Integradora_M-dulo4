@@ -1,6 +1,6 @@
 package cuenta_moneda_test;
 /**
- * Importaciones necesarias para las pruebas
+ * Importaciones necesarias para las pruebas.
  */
 import static org.junit.jupiter.api.Assertions.*;
 

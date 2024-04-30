@@ -36,7 +36,7 @@ public abstract class Menu {
      * Limpia la pantalla de la consola.
      */
     public void clearScreen() {
-        System.out.print("\033[H\033[2J");  // Código para limpiar la pantalla en sistemas Unix
+        System.out.print("\033[H\033[2J");  
         System.out.flush();
     }
 

@@ -3,7 +3,7 @@ package menu_runner_test;
 /**
  * Importaciones necesarias para las pruebas
  */
-import static org.junit.jupiter.api.Assertions.*;
+
 import static org.mockito.Mockito.*;
 
 import org.junit.jupiter.api.BeforeEach;
@@ -22,7 +22,7 @@ import menu_runner.*;
 public class UsuarioMenuTest {
 	
 	/**
-	 * El orden es afectado durante la ejecucion pero deberia ser asi el orede de saldos a ingresar por consola.
+	 * El orden es afectado durante la ejecucion pero deberia ser así el oreden de saldos a ingresar por consola.
 	 * Monto en Pesos Chilenos a convertir a Dólares:100
 	 * Monto a retirar en Pesos Chilenos: 50 
 	 * Monto a depositar en PesosChilenos: 100 

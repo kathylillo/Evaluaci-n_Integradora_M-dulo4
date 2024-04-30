@@ -1,7 +1,7 @@
 package usuario_test;
 
 /**
- * Importaciones necesarias para las pruebas
+ * Importaciones necesarias para las pruebas.
  */
 import static org.junit.Assert.assertEquals;
 import org.junit.Test;
@@ -21,7 +21,7 @@ public class UsuarioCuentaDBTest {
 
 	 private UsuarioCuenta usuario;
 
-	 /**
+	    /**
 	     * Configura un nuevo usuario antes de cada prueba.
 	     */
 	    @BeforeEach

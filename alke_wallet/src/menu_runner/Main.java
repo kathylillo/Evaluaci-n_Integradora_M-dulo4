@@ -13,8 +13,9 @@ public class Main {
 	CuentaServicio accountService = new CuentaServicioImpl();
     UsuarioMenu menu = new UsuarioMenu(accountService);
 
-    menu.displayMenu();   // Mostrar el menú principal
-    menu.closeScanner();  // Cerrar el scanner al finalizar la ejecución
-} 
+    menu.displayMenu();   
+    menu.closeScanner(); 
+    
+	}
 
 } 

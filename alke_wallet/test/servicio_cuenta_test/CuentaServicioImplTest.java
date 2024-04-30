@@ -34,7 +34,7 @@ public class CuentaServicioImplTest {
     @BeforeEach
     public void setUp() {
         usuarios = new HashMap<>();
-        UsuarioCuenta usuario1 = new UsuarioCuenta("Juan", "Durán", "jp@mail.com","123456789", "Profe12345");
+        UsuarioCuenta usuario1 = new UsuarioCuenta("Juan", "Durán", "jp@mail.com", "123456789", "Profe12345");
         usuarios.put(usuario1.getEmail(), usuario1);
         cuentaServicio = new CuentaServicioImpl(usuarios);
     }
